@@ -1,0 +1,47 @@
+.wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navbar-left > :first-child {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.navbar-list {
+    flex: 10;
+}
+
+.navbar-list > ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 4rem;
+    list-style-type: none;
+}
+
+.navbar-list > ul > li:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+.nav-button{
+    flex: 2;
+}
